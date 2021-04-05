@@ -23,7 +23,7 @@ def send_email():
     server.starttls()
     server.ehlo()
 
-    server.login("testing.smtpdev","*testing123*")
+    server.login("testing.smtpdev","PASSWORD")
 
     subject = str(title)+" is now available!"
     body = "Check "+str(URL)+" for details."
