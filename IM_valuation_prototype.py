@@ -2,7 +2,7 @@
 import pandas as pd
 from sklearn import preprocessing
 
-df = pd.read_excel("/Users/selimpolat/Desktop/valuation.xlsx")
+df = pd.read_excel("PATH")
 
 columns = [' Model', 'Hours', 'Year', 'Gross Price', 'Currency',"encoded"]
 
