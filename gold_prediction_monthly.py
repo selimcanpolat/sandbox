@@ -1,7 +1,7 @@
 
 import pandas as pd
 
-df = pd.read_csv("/Users/selimpolat/Desktop/monthly.csv")
+df = pd.read_csv("PATH") # local path
 
 X = df.drop(columns="Price")
 y = df["Price"].astype(int)
